@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "accordion-webpart-client-side-solution",
+    "id": "23ada9c0-7306-42fd-8ad9-c6f060e4acab",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "accordion-webpart description"
+      },
+      "longDescription": {
+        "default": "accordion-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "accordion-webpart Feature",
+        "description": "The feature that activates elements of the accordion-webpart solution.",
+        "id": "71f146d7-8d7e-4a1c-98c0-322132d1fdc7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/accordion-webpart.sppkg"
+  }
+}
